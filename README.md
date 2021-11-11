@@ -12,9 +12,13 @@ Golangの場合、ライブラリの依存関係を共通レポジトリで構�
 ## Golang(マイクロサービス)ランタイム における Redis の適用方法  
 
 Golang(マイクロサービスランタイム)環境で Redis を適用する場合は、go.modに以下のように記載します。  
+
 ```
-"github.com/go-redis/redis/v8" 
+module MODULE-NAME
 
-v3.0.0
+go 1.14
 
+require (
+	github.com/go-redis/redis/v7 v7.2.0
+	)
 ```
