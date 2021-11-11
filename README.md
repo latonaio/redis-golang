@@ -16,7 +16,7 @@ Golang(マイクロサービスランタイム)環境で Redis を適用する�
 ```
 module MODULE-NAME
 
-go 1.14
+go 1.17
 
 require (
 	github.com/go-redis/redis/v8 v8.11.4
